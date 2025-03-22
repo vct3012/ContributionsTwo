@@ -53,7 +53,7 @@ const createDailyCommits = async (day) => {
 
 // Hàm tạo commits từ ngày 01/01/2024 đến hiện tại
 const generateCommits = async () => {
-  const startDate = moment("2024-01-01");
+  const startDate = moment("2024-07-03");
   const currentDate = moment(); // Thời gian hiện tại
 
   // Lặp qua từng ngày từ startDate đến hiện tại
